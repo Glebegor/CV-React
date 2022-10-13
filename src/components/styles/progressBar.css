@@ -1,0 +1,155 @@
+.skill
+{
+    transform: rotate(90deg);
+    width:300px;
+    height: 300px;
+    /* background-color: rgba(126, 255, 93, 0.2); */
+    position: relative;
+}
+.skills__underText
+{
+    padding-top: 100px;
+    margin-left: 15px;
+    color: #fff;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.outer
+{
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 30px;
+    /* box-shadow: 0px 0px 20px 2px rgba(126, 255, 93) */
+}
+.inner
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 260px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #000E29;
+    /* box-shadow: inset 0px 0px 20px 2px #7eff5d */
+}
+.number
+{
+    transform: rotate(-90deg);
+    color: #fff;
+    
+    font-size: 48px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+circle
+{
+    fill: none;
+    stroke: #FFE608;
+    stroke-width: 50px;
+    stroke-dasharray: 1650;
+    stroke-dashoffset: 1000;
+    filter: drop-shadow(0px 0px 10px #FFE608);
+    
+    transition: .3s;
+    /* animation-name: mainAnim1; */
+    animation-duration: 2s;
+}
+.skill__choise .skill .outer
+{
+    background-color: #FFE60833;
+}
+.skill__choise:nth-child(2) .skill svg circle
+{
+
+    stroke-dasharray: 1475;
+    stroke: #7EFF5D;
+    filter: drop-shadow(0px 0px 10px #7EFF5D);
+
+    transition: .3s;
+    /* animation-name: mainAnim2; */
+    animation-duration: 2s;
+}
+.skill__choise:nth-child(2) .outer
+{
+    background-color: #7EFF5D33;
+}
+.skill__choise:nth-child(3) .skill svg circle
+{
+    stroke-dasharray: 1275;
+    stroke: #ED00F2;
+    filter: drop-shadow(0px 0px 10px #ED00F2);
+
+    transition: .3s;
+    /* animation-name: mainAnim3; */
+    animation-duration: 2s;
+}
+.skill__choise:nth-child(3) .outer
+{
+    background-color: #ED00F233;
+}
+svg{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+
+circle
+{
+    animation-name: mainAnim1;
+    animation-duration: .8s;
+}
+.skill__choise:nth-child(2) .skill svg circle
+{
+    animation-name: mainAnim2;
+    animation-duration: .8s;
+}
+.skill__choise:nth-child(3) .skill svg circle
+{
+    animation-name: mainAnim3;
+    animation-duration: .8s;
+}
+
+@keyframes mainAnim1
+{
+    0%{
+        stroke-dasharray: 1000;
+    }
+    100%
+    {
+        stroke-dasharray: 1650;
+    }
+}
+@keyframes mainAnim2
+{
+    0%{
+        stroke-dasharray: 1000;
+    }
+    100%
+    {
+        stroke-dasharray: 1475;
+    }
+}
+@keyframes mainAnim3
+{
+    0%{
+        stroke-dasharray: 1000;
+    }
+    100%
+    {
+        stroke-dasharray: 1275;
+    }
+}

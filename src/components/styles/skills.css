@@ -1,0 +1,25 @@
+.skills
+{
+    z-index: 1000;
+}
+.skills__title
+{
+    padding: 270px 0px 150px 0px;
+    text-align: center;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 110px;
+
+    color: #FFFFFF;
+}
+.skills__wrap
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-right : 0px;
+    margin-left : 70px;
+}

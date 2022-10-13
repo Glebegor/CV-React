@@ -1,0 +1,70 @@
+.SkillsStepTwo
+{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.SkillsStepTwo__first__inner
+{
+
+}
+.SkillsStepTwo__sec__line
+{
+    animation: ligthing infinite;
+    animation-duration: 2s;
+    border-radius: 100px;
+    filter: drop-shadow(0px 0px 10px #FFE608);
+    height: 100%;
+    width: 5px;
+    background-color: rgb(255, 232, 31)!important;
+}
+.SkillStepTwo__fir__img
+{
+    animation: hacker infinite;
+    animation-duration: 2s;
+
+    width: 391px;
+    height: 391px;
+}
+.SkillStepTwo__fir__text
+{
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 74px;
+    text-align: center;
+}
+.SkillsStepTwo__sec__inner
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.SkillsStepTwo__tech
+{
+    padding-left: 20px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: left;
+}
+@keyframes hacker {
+    0%{
+        transform: scale(1.00);
+    }50%{
+        transform: scale(1.05)
+    }
+}
+@keyframes ligthing{
+    0%{
+        filter: drop-shadow(0px 0px 2px #FFE608);
+    }50%{
+        filter: drop-shadow(0px 0px 10px #FFE608);
+    }100%{
+        filter: drop-shadow(0px 0px 2px #FFE608);
+    }
+}

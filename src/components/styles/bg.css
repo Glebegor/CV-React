@@ -1,0 +1,134 @@
+.bg-images
+{
+    z-index: -1;
+    overflow: hidden;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    height: 2800px;
+    width: 2026px;
+}
+
+.rectangle1
+{
+    position: absolute;
+    width: 280.19px;
+    height: 280.19px;
+    left: 1420.67px;
+    top: -150.13px;
+
+    background: #ED00F2;
+    box-shadow: 0px 0px 20px 2px #ED00F2;
+    transform: rotate(-32.58deg);
+}
+
+.l3ines1
+{
+    z-index: 2000;
+    position: absolute;
+    left: 200px;
+    top:500px;
+    width: 343px;
+    height: 228px;
+    transform: rotate(20deg);
+    filter: drop-shadow(0px 0px 20px #FFE608);
+}
+.l3ine
+{
+    margin: 25px;
+    background-color: #FFE608;
+    border: 10px solid #FFE609;
+}
+.circle4
+{
+    transform: rotate(-26deg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: absolute;
+    left: 1467px;
+    top: 689.22px;
+
+
+    width: 353px;
+    height: 353px;
+
+    z-index: -1;
+}
+.circle__item
+{
+
+
+    margin: 10px;
+
+    width: 149px;
+    height: 149px;
+
+    border-radius: 50%;
+    background-color: var(--colorCirRed);
+    box-shadow: 0px 0px 20px var(--colorCirRed);
+}
+.circle__item:nth-child(2)
+{
+    background-color: var(--colorCirbl);
+    box-shadow: 0px 0px 20px var(--colorCirbl);
+}
+.circle__item:nth-child(3)
+{
+    background-color: var(--colorCirYe);
+    box-shadow: 0px 0px 20px var(--colorCirYe);
+}
+.circle__item:last-child
+{
+    background-color: var(--colorCirPin);
+    box-shadow: 0px 0px 20px var(--colorCirPin);
+}
+.elips1
+{
+    z-index: -1;
+    position: absolute;
+    width: 544px;
+    height: 544px;
+    left: -247px;
+    top: 770px;
+ 
+    border-radius: 50%;
+    background: #7EFF5D;
+    box-shadow: 0px 0px 20px 2px #7EFF5D;
+}
+.square1
+{
+    position: absolute;
+    width: 641px;
+    height: 641px;
+    left: 1850.99px;
+    top: 1537.08px;
+
+    background: #45FFF4;
+    box-shadow: 0px 0px 20px 2px #45FFF4;
+    transform: rotate(64.37deg);
+}
+.square2
+{
+    position: absolute;
+    width: 562.59px;
+    height: 351px;
+    left: -247px;
+    top: 2307.92px;
+
+    background: #45FFF4;
+    box-shadow: 0px 0px 20px 2px #45FFF4;
+    transform: rotate(-32.58deg);
+}
+
+.triangle3
+{
+    position: absolute;
+    width: 303px;
+    height: 303px;
+    right: -5%;
+    top: 2295.48px;
+}

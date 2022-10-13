@@ -1,0 +1,8 @@
+.MainPhotoImg
+{
+    z-index: -3;
+    width: 400px;
+    height: 400px;
+
+    filter: drop-shadow(30px 30px 0px rgba(0, 240, 255, 0.25));
+}
